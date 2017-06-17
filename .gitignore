@@ -1,2 +1,4 @@
 imgboard/
 app/__pycache__
+.idea
+.git
