@@ -1,0 +1,14 @@
+<html>
+  <head>
+      {% if title %}
+      <title>{{title}} - imgboard</title>
+      {% else %}
+      <title>Imgboard</title>
+      {% endif %}
+  </head>
+  <body>
+    <div>Imageboard: <a href="/index">Home</a></div>
+    <hr>
+    {% block content %}{% endblock %}
+  </body>
+</html>
