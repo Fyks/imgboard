@@ -24,4 +24,5 @@ def index():
 
 @app.route('/nya')
 def nya():
-    return 'Nyaaa~'
+    return render_template('nya.html',
+                           title='Neko')
